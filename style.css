@@ -324,3 +324,25 @@ body{
         color: var(--blue);
     }
 }
+@media screen and (max-width: 1367px){
+    .name{
+        position: absolute;
+        width: 517px;
+        height: 139px;
+        left: 678px;
+        top: 162px;
+
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .img{
+        position: absolute;
+        width: 311px;
+        height: 318px;
+        left: 131px;
+        top: 81px;
+    }
+}
