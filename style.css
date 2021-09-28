@@ -25,7 +25,7 @@ body{
         line-height: 80px;
     }
 
-    @media screen and (min-width: 1440px){
+    @media screen and (min-width: 1430px)and (max-width: 1700px){
         .rectangle {
             position: absolute;
             width: 236px;
@@ -36,7 +36,7 @@ body{
         }
     }
 
-    @media screen and (min-width: 1440px){
+    @media screen and (max-width: 1450px){
         .img {
             position: absolute;
             /*width: 311px;
@@ -48,7 +48,7 @@ body{
         }
     }
 
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1440px)and (max-width: 1700px){
         .strip {
             position: absolute;
             width: 100%;
@@ -480,6 +480,168 @@ body{
         height: 29px;
         left: 0px;
         top: 911px;
+        background: var(--light_brown);
+    }
+}
+@media screen and (min-width: 1900px)and (max-width: 2000px){
+    .name{
+        position: absolute;
+        width: 691px;
+        height: 205px;
+        left: 1025px;
+        top: 138px;
 
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 107px;
+    }
+    .img{
+        position: absolute;
+        width: 369px;
+        height: 346px;
+        left: 155px;
+        top: 81px;
+
+    }
+    .rectangle{
+        position: absolute;
+        width: 280px;
+        height: 285px;
+        left: 0px;
+        top: 112px;
+        background-color: var(--light_brown);
+    }
+    .heading1{
+        position: absolute;
+        width: 366px;
+        height: 53px;
+        left: 109px;
+        top: 499px;
+
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 53px;
+
+        color: var(--brown);
+    }
+
+    .text1 {
+        position: absolute;
+        width: 416px;
+        height: 184px;
+        left: 108px;
+        top: 571px;
+
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 46px;
+
+        color: var(--blue);
+    }
+
+    .heading2 {
+        position: absolute;
+        width: 555px;
+        height: 53px;
+        left: 109px;
+        top: 774px;
+
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 53px;
+
+        color: var(--brown);
+    }
+
+    .text2 {
+        position: absolute;
+        width: 455px;
+        height: 138px;
+        left: 109px;
+        top: 830px;
+
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 46px;
+        color: var(--blue);
+    }
+
+    .heading3 {
+        position: absolute;
+        width: 258px;
+        height: 53px;
+        left: 1148px;
+        top: 499px;
+
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 53px;
+        color: var(--brown);
+    }
+
+    .text3 {
+        position: absolute;
+        width: 499px;
+        height: 138px;
+        left: 1149px;
+        top: 571px;
+
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 46px;
+        color: var(--blue);
+    }
+
+    .heading4 {
+        position: absolute;
+        width: 202px;
+        height: 53px;
+        left: 1150px;
+        top: 752px;
+
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 53px;
+
+        color: var(--brown);
+    }
+
+    .text4 {
+        position: absolute;
+        width: 498px;
+        height: 138px;
+        left: 1150px;
+        top: 808px;
+
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 46px;
+        color: var(--blue);
+    }
+    .strip{
+        position: absolute;
+        width: 1920px;
+        height: 28px;
+        left: 0px;
+        top: 1021px;
+        background: var(--light_brown);
     }
 }
