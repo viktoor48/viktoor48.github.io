@@ -25,4 +25,155 @@ body{
     height: 330px;
     width: 100%;
     margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.photo_and_rectangle{
+    display: flex;
+    height: 100%;
+    width: 40%;
+    align-items: center;
+}
+.rectangle{
+    position: absolute;
+    left: 0px;
+    width: 236px;
+    height: 263px;
+    align-items: center;
+    z-index: -1;
+    background: var(--light_brown);
+}
+.photo{
+    width: 311px;
+    height: 318px;
+    margin-left: 100px;
+    background: url("images/photo.png") no-repeat;
+}
+.name{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    margin-left: 190px;
+    color: var(--blue);
+}
+.main-text{
+    width: 100%;
+    height: 64.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.main-text{
+    border: 1px solid red;
+}
+.block-text-top{
+    width: 100%;
+    height: 100%;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.block-text-bottom{
+    width: 100%;
+    height: 100%;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.block-text-first-top{
+    width: 427px;
+    height: 220px;
+    border: 1px solid orange;
+}
+.block-text-second-top{
+    width: 427px;
+    height: 220px;
+    border: 1px solid orange;
+}
+.block-text-first-bottom{
+    width: 427px;
+    height: 220px;
+    border: 1px solid orange;
+}
+.block-text-second-bottom{
+    width: 427px;
+    height: 220px;
+    border: 1px solid orange;
+}
+.head-quality{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 44px;
+    margin-top: 0px;
+    color: var(--brown);
+}
+.quality{
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: var(--blue);
+    margin-top: 0px;
+}
+.head-education{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 44px;
+    margin-top: 0px;
+    color: var(--brown);
+}
+.education{
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: var(--blue);
+    margin-top: 0px;
+}
+.head-skills{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 44px;
+    margin-top: 0px;
+    color: var(--brown);
+}
+.skills{
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: var(--blue);
+    margin-top: 0px;
+}
+.head-contacts{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 44px;
+    margin-top: 0px;
+    color: var(--brown);
+}
+.contacts{
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: var(--blue);
+    margin-top: 0px;
 }
