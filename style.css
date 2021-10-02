@@ -177,3 +177,9 @@ body{
     color: var(--blue);
     margin-top: 0px;
 }
+.strip{
+    width: 100%;
+    height: 35px;
+    background: var(--light_brown);
+    margin-bottom: 20px;
+}
