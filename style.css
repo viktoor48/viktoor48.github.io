@@ -32,7 +32,7 @@ body{
 .photo_and_rectangle{
     display: flex;
     height: 100%;
-    width: 40%;
+    /*width: 40%;*/
     align-items: center;
 }
 .rectangle{
@@ -48,14 +48,15 @@ body{
     width: 311px;
     height: 318px;
     margin-left: 100px;
-    background: url("images/photo.png") no-repeat;
+    /*background: url("images/photo.png") no-repeat;*/
 }
 .name{
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
     font-size: 60px;
-    margin-left: 190px;
+    margin-right: 190px;
+    margin-left: 20px;
     color: var(--blue);
 }
 .main-text{
