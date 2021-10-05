@@ -13,16 +13,13 @@ body{
     color: var(--blue);
 }
 .main-block{
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
-    z-index: -1;
     background-color: var(--gray);
 }
 .photo_and_Name{
-    height: 330px;
     width: 100%;
     margin-top: 30px;
     display: flex;
@@ -31,23 +28,13 @@ body{
 }
 .photo_and_rectangle{
     display: flex;
-    height: 100%;
-    /*width: 40%;*/
     align-items: center;
-}
-.rectangle{
-    position: absolute;
-    left: 0px;
-    width: 236px;
-    height: 263px;
-    align-items: center;
-    z-index: -1;
-    background: var(--light_brown);
 }
 .photo{
     width: 311px;
     height: 318px;
     margin-left: 100px;
+    z-index: 1;
     /*background: url("images/photo.png") no-repeat;*/
 }
 .name{
@@ -61,7 +48,6 @@ body{
 }
 .main-text{
     width: 100%;
-    height: 64.5%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -72,115 +58,100 @@ body{
 }
 .block-text-top{
     width: 100%;
-    height: 100%;
     border: 1px solid blue;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 .block-text-bottom{
     width: 100%;
-    height: 100%;
     border: 1px solid blue;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 50px;
 }
-.block-text-first-top{
-    width: 427px;
-    height: 220px;
+.block-text{
+    margin: 15px 2%;
     border: 1px solid orange;
+    height: 100%;
+    width: 46%;
 }
-.block-text-second-top{
-    width: 427px;
-    height: 220px;
-    border: 1px solid orange;
-}
-.block-text-first-bottom{
-    width: 427px;
-    height: 220px;
-    border: 1px solid orange;
-}
-.block-text-second-bottom{
-    width: 427px;
-    height: 220px;
-    border: 1px solid orange;
-}
-.head-quality{
+.head{
     font-family: Playfair Display;
-    font-style: normal;
     font-weight: bold;
     font-size: 33px;
     line-height: 44px;
     margin-top: 0px;
     color: var(--brown);
 }
-.quality{
+.text{
     font-family: PT Serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 30px;
     line-height: 40px;
     color: var(--blue);
     margin-top: 0px;
 }
-.head-education{
-    font-family: Playfair Display;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 33px;
-    line-height: 44px;
-    margin-top: 0px;
-    color: var(--brown);
+@media screen and (min-width: 820px){
+    .strip{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 35px;
+        background: var(--light_brown);
+        margin-bottom: 20px;
+    }
+    .rectangle{
+        position: absolute;
+        left: 0px;
+        width: 236px;
+        height: 263px;
+        align-items: center;
+        background: var(--light_brown);
+    }
 }
-.education{
-    font-family: PT Serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 40px;
-    color: var(--blue);
-    margin-top: 0px;
-}
-.head-skills{
-    font-family: Playfair Display;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 33px;
-    line-height: 44px;
-    margin-top: 0px;
-    color: var(--brown);
-}
-.skills{
-    font-family: PT Serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 40px;
-    color: var(--blue);
-    margin-top: 0px;
-}
-.head-contacts{
-    font-family: Playfair Display;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 33px;
-    line-height: 44px;
-    margin-top: 0px;
-    color: var(--brown);
-}
-.contacts{
-    font-family: PT Serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 40px;
-    color: var(--blue);
-    margin-top: 0px;
-}
-.strip{
-    width: 100%;
-    height: 35px;
-    background: var(--light_brown);
-    margin-bottom: 20px;
+@media screen and (max-width: 819px){
+    .block-text-top{
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .block-text-bottom{
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .photo_and_Name{
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .photo_and_rectangle{
+        width: 100%;
+        justify-content: center;
+    }
+    .photo{
+        margin-left: 0px;
+    }
+    .name{
+        text-align: center;
+        width: 100%;
+        font-size: 48px;
+        margin: 15px 0;
+    }
+    .head{
+        font-size: 28px;
+    }
+   .block-text{
+       width: 96%;
+       margin: 0 2%;
+       text-align: center;
+   }
+   .text{
+       font-size: 25px;
+   }
 }
