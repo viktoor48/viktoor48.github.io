@@ -35,7 +35,6 @@ body{
     height: 318px;
     margin-left: 100px;
     z-index: 1;
-    /*background: url("images/photo.png") no-repeat;*/
 }
 .name{
     font-family: Playfair Display;
@@ -43,7 +42,7 @@ body{
     font-weight: bold;
     font-size: 60px;
     margin-right: 190px;
-    margin-left: 20px;
+    margin-left: 40px;
     color: var(--blue);
 }
 .main-text{
@@ -53,26 +52,23 @@ body{
     justify-content: space-around;
     flex-direction: column;
 }
-.main-text{
-    border: 1px solid red;
-}
 .block-text-top{
     width: 100%;
-    border: 1px solid blue;
+   /*border: 1px solid blue;*/
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 }
 .block-text-bottom{
     width: 100%;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 }
 .block-text{
     margin: 15px 2%;
-    border: 1px solid orange;
+    /*border: 1px solid orange;*/
     height: 100%;
     width: 46%;
 }
@@ -154,4 +150,13 @@ body{
    .text{
        font-size: 25px;
    }
+}
+@media screen and (min-width: 1550px){
+    .name{
+        font-size: 70px;
+        margin-right: 300px;
+    }
+    .left{
+        margin-left: 150px;
+    }
 }
